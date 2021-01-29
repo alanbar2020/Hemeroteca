@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F723AE6-CF59-4AB6-AFD7-8689ACC3AD59}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hemeroteca</RootNamespace>
+    <AssemblyName>Hemeroteca</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\..\Programacion 2 AMSE 2019\TrabajoPractico3\bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controladores\Conexion.cs" />
+    <Compile Include="Controladores\pAtributosIngreso.cs" />
+    <Compile Include="Controladores\pCiudad.cs" />
+    <Compile Include="Controladores\pContinente.cs" />
+    <Compile Include="Controladores\pDireccion.cs" />
+    <Compile Include="Controladores\pFacultad.cs" />
+    <Compile Include="Controladores\pFormaDePago.cs" />
+    <Compile Include="Controladores\pIngreso.cs" />
+    <Compile Include="Controladores\pLogin.cs" />
+    <Compile Include="Controladores\pMoneda.cs" />
+    <Compile Include="Controladores\pPais.cs" />
+    <Compile Include="Controladores\pProveedor.cs" />
+    <Compile Include="Controladores\pProvincia.cs" />
+    <Compile Include="Controladores\pRevista.cs" />
+    <Compile Include="Controladores\pStock.cs" />
+    <Compile Include="Controladores\pTipoIngreso.cs" />
+    <Compile Include="Controladores\pUso.cs" />
+    <Compile Include="Entidades\AtributosIngreso.cs" />
+    <Compile Include="Entidades\Ciudad.cs" />
+    <Compile Include="Entidades\Continente.cs" />
+    <Compile Include="Entidades\Direccion.cs" />
+    <Compile Include="Entidades\Facultad.cs" />
+    <Compile Include="Entidades\FormaDePago.cs" />
+    <Compile Include="Entidades\Ingreso.cs" />
+    <Compile Include="Entidades\Login.cs" />
+    <Compile Include="Entidades\Moneda.cs" />
+    <Compile Include="Entidades\Pais.cs" />
+    <Compile Include="Entidades\Proveedor.cs" />
+    <Compile Include="Entidades\Provincia.cs" />
+    <Compile Include="Entidades\Revista.cs" />
+    <Compile Include="Entidades\Stock.cs" />
+    <Compile Include="Entidades\TipoIngreso.cs" />
+    <Compile Include="Entidades\Uso.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\frmEditarFacultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmEditarFacultad.Designer.cs">
+      <DependentUpon>frmEditarFacultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmEditarIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmEditarIngreso.Designer.cs">
+      <DependentUpon>frmEditarIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmEditarLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmEditarLogin.Designer.cs">
+      <DependentUpon>frmEditarLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmEditarStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmEditarStock.Designer.cs">
+      <DependentUpon>frmEditarStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmEditarTipoIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmEditarTipoIngreso.Designer.cs">
+      <DependentUpon>frmEditarTipoIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmFacultad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmFacultad.Designer.cs">
+      <DependentUpon>frmFacultad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmIngreso.Designer.cs">
+      <DependentUpon>frmIngreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmStock.Designer.cs">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\frmTipoIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\frmTipoIngreso.Designer.cs">
+      <DependentUpon>frmTipoIngreso.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\frmEditarFacultad.resx">
+      <DependentUpon>frmEditarFacultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmEditarIngreso.resx">
+      <DependentUpon>frmEditarIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmEditarLogin.resx">
+      <DependentUpon>frmEditarLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmEditarStock.resx">
+      <DependentUpon>frmEditarStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmEditarTipoIngreso.resx">
+      <DependentUpon>frmEditarTipoIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmFacultad.resx">
+      <DependentUpon>frmFacultad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmIngreso.resx">
+      <DependentUpon>frmIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmStock.resx">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\frmTipoIngreso.resx">
+      <DependentUpon>frmTipoIngreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.Conexion.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.pCiudad.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.pContinente.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.pDireccion.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.pPais.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Controladores.pProvincia.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.AtributosIngreso.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Ciudad.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Continente.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Direccion.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Facultad.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.FormaDePago.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Ingreso.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Login.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Moneda.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Pais.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Proveedor.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Provincia.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Revista.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.Stock.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Entidades.TipoIngreso.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Hemeroteca.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

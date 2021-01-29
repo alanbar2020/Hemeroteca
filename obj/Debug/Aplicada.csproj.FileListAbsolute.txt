@@ -1,0 +1,12 @@
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.exe.config
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.exe
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.pdb
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\System.Data.SQLite.dll
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Aplicada.csprojAssemblyReference.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.Form1.resources
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.Properties.Resources.resources
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Aplicada.csproj.GenerateResource.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Aplicada.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Aplicada.csproj.CopyComplete
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.exe
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.pdb

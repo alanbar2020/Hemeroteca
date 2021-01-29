@@ -1,0 +1,33 @@
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.exe.config
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.exe
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\Hemeroteca.pdb
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\bin\Debug\System.Data.SQLite.dll
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.csprojAssemblyReference.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.Form1.resources
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.Properties.Resources.resources
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.csproj.GenerateResource.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.csproj.CopyComplete
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.exe
+C:\Users\lucia\OneDrive\Desktop\Lucia\Ingenieria en sistemas(Materias)\Materias 3\Proyecto Info Aplicada\Hemeroteca\obj\Debug\Hemeroteca.pdb
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.csprojAssemblyReference.cache
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Form1.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Properties.Resources.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmEditarIngreso.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmIngreso.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.csproj.GenerateResource.cache
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.csproj.CoreCompileInputs.cache
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.exe
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.pdb
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmEditarTipoIngreso.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmTipoIngreso.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\bin\Debug\Hemeroteca.exe.config
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\bin\Debug\Hemeroteca.exe
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\bin\Debug\Hemeroteca.pdb
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.csproj.CopyComplete
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmEditarFacultad.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmEditarLogin.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmEditarStock.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmFacultad.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmLogin.resources
+C:\Proyecto Informatica\Nuevos\Hemeroteca\Hemeroteca\obj\Debug\Hemeroteca.Vistas.frmStock.resources
